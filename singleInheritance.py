@@ -1,9 +1,9 @@
-class parent() :
+class parent():
     def fun(self,name,age):
         self.name = name
         self.age = age
         print("the function in the parent class.")
-@property
+
 class child(parent) :
     def fun1(self):
         print(f"My name is {self.name}")
